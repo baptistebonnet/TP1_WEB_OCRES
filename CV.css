@@ -1,0 +1,137 @@
+header
+{
+	background-color: #C4C4C4;
+}
+
+#leftcolumn, aside
+{
+	float: left;
+	width: 20%;
+	text-align: center;
+	margin-left: 1%;
+	margin-top: 0.5%;
+}
+
+.rond
+{
+	width : 60%; height : 60%;
+	border: none;
+	-moz-border-radius : 75px;
+	-webkit-border-radius : 75px;
+	border-radius : 75px;
+}
+
+#rightcolumn
+{
+	float: right;
+	width: 32%;
+	text-align: right;
+	margin-right: 1%;
+}
+
+#centercolumn
+{
+	display: inline-block;
+	width: 46%;
+	
+}
+
+.navbar 
+{   
+ 	background:#fff;
+} 
+
+.nav-link,.navbar-brand 
+{   
+ 	color: ##4682B4;   cursor: pointer;
+} 
+
+.nav-link 
+{   
+ 	margin-right: 1em !important; 
+} 
+
+.nav-link:hover 
+{   
+ 	color: #C4C4C4; 
+} 
+
+.navbar-collapse
+{   
+ 	justify-content: center;
+} 
+
+ aside 
+{
+ 	background-color: #4682B4;
+ 	color: white;
+ 	margin-left: 1%;
+}
+
+ main
+{
+ 	background-color: #C4C4C4;
+}
+
+article
+{
+	margin-bottom: 20px;
+}
+
+.principale
+{
+	margin-left: 25%;
+	margin-right: 5%;
+}
+
+.page-footer 
+{   
+	background-color: #4682B4;   
+	color: #ccc;  
+	padding: 60px 0 30px; 
+} 
+ 
+.footer-copyright 
+{   
+	color: #666;   
+	padding: 40px 0;
+}
+
+.resp-container 
+{ 
+	position: relative; 
+    overflow: hidden; 
+   text-align: center;
+   margin-bottom: 1%;
+}
+
+iframe
+{
+	width: 700px;
+	height: 400px;
+}
+
+.move{
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.video
+{
+	margin-left: 5%;
+	margin-right: 5%;
+	text-indent: 5%;
+	text-align: justify;
+}

@@ -1,0 +1,158 @@
+<!---ce code est inspiré du TD-TP 7 - Introduction au Framework Boostrap de l'année dernière (ING3) ecrit par Manolo Hina--->	
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CV Baptiste Bonnet</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> 
+	<link rel="stylesheet" type="text/css" href="CV.css">
+	<script type="text/javascript" src="formulaire.js"></script>
+
+</head>
+<body>
+
+	<header>
+
+		<div id="leftcolumn">
+			<img class="rond" src="images/photo.jpg" width="150" height="150">
+		</div>
+
+		<div id="centercolumn">
+			<h2 style="font-weight: normal;">Baptiste</h2>
+			<h1 style="font-weight: bold">Bonnet</h1>
+			<p>Date de naissance : 27 Décembre 1999</p>
+		</div>
+
+		<div id="rightcolumn">
+			<p>06 72 59 29 08 <img src="images/phone.png" width="15" height="15"></p>
+			<p>28 rue Vercingétorix, <img src="images/adresse.png" width="20" height="20"></p>
+			<p>Juvisy-sur-Orge, 91260 &nbsp;</p>
+			<a href="mailto:baptiste.bonnet@edu.ece.fr">baptiste.bonnet@edu.ece.fr <img src="images/email.png" width="20" height="20"></a>
+		</div>
+		<br>
+		<br>
+		
+		<nav class="navbar navbar-expand-md text-center">
+			
+			<div class="collapse navbar-collapse" id="main-navigation">      
+				<ul class="navbar-nav">                       
+				  <li><a class="nav-link" href="video.html">Vidéo</a></li>             
+				  <li><a class="nav-link" href="#contact">Contact</a></li>      
+				</ul>       
+			</div>
+
+		</nav>
+
+	</header>	
+
+	<aside>	
+
+		<br>
+		<article>
+			<h4>Compétences</h4>
+			<ul style="text-align: left; margin-right: 10%;">
+				<li>Utilisation des principaux logiciels (Word, Exel, PowerPoint...)</li>
+				<li>Pratique du logiciel de design Figma</li>
+				<li>Utilisation de logiciels de simulations électroniques (Pspice, Isis...)</li>
+				<li>Codage en language C, C++, Java, HTML, PHP</li>
+			</ul>
+		</article>
+		<article>
+			<h4>Langues</h4>
+			<ul style="text-align: left; margin-right: 10%;">
+				<li>Français  (langue maternelle)</li>
+				<li>Anglais (pratique professionnelle)</li>
+				<li>Espagnol (pratique courante)</li>
+				<li>Suédois (notions de base)</li>
+			</ul>
+		</article>
+		<article>
+			<h4>Centres d'intérêt</h4>
+			<ul style="text-align: left; margin-right: 10%;">
+				<li>Musique : Guitare, Batterie au conservatoire depuis 2010, participation à des concerts, big band...</li>
+				<li>Sport : Tennis, Handball, Football</li>
+				<li>Cinéma, voyages...</li>
+			</ul>
+		</article>
+
+	</aside>
+
+	<main>	
+
+		<br>
+		<article class="principale">
+			<header>
+				<h4 class="move"><u>Profil</u></h4>
+			</header>
+			<p style="text-indent: 5%;">Jeune étudiant dynamique et motivé de l'<b>Ecole Centrale d'Electronique Paris</b>, je poursuis parallèlement des études de batterie au conservatoire afin de lier, dans mon univers profesionnel, l'ingénérie à la musique.</p>
+		</article>
+
+		<article class="principale">
+			<header>
+				<h4 class="move"><u>Diplômes et formations</u></h4>
+			</header>
+			<ul>
+				<li>Depuis septembre 2017 :</li>
+				<p>Ecole d'ingénieur généraliste, <b>ECE Paris</b></p>
+				<li>Aout 2019 – Janvier 2020 :</li>
+				<p>Semestre Erasmus à l’<b>Université de Malmö</b>, Suède</p>
+				<li>Juin 2017 :</li>
+				<p>Obtention du <b>baccalauréat S</b> option Sciences et Vie de la Terre, spécialité mathématiques (mentionbien), <b>Lycée Marcel Pagnol</b> (91)</p>
+			</ul>
+		</article>
+
+		<article class="principale">
+			<header>
+				<h4 class="move"><u>Expériences Professionnelles</u></h4>
+			</header>
+			<ul>
+				<li>2020 :</li>
+				<p>Vacation au cinéma "<b>Les Cinoches</b>" de Ris-Orangis (Juillet/Août)<br>
+				Accueil du public et mise en place des consignes de sécurité liées au Coronavirus.</p>
+				<li>Depuis Mars 2019 :</li>
+				<p>Vacations <b>au Plan</b>, salle de concerts à Ris-Orangis<br>
+				Accueil, vente de boissons, vérification des billets, gestion du vestiaire…</p>
+				<li>2019 :</li>
+				<p>Stage de découverte de l'entreprise <b>au Plan</b>, salle de concerts à Ris-Orangis (Janvier/Février)<br>
+				Installation et désinstallation du matériel scénique (sons et lumières).</p>
+				<li>2018 :</li>
+				<p>Accueil et réception des touristes, <b>hôtel San Pawl</b>, Malte (Juin/Juillet),<br>
+				Utilisation de l'anglais et de l'espagnol.</p>
+				<li>2014 :</li>
+				<p>Stage de découverte des métiers auprès du régisseur de la ville de Juvisy sur Orge (organisation des différents évènements artistiques et culturels de la ville).</p>
+
+			</ul>
+		</article>
+		
+	</main>
+
+	<footer class="page-footer" id="contact">  
+	 	<div class="container">   
+	 	 	<div class="row">       
+	  			<div class="col-lg-8 col-md-8 col-sm-12">      
+	    			<h6 class="text-uppercase font-weight-bold">Une question ?</h6>      
+	    		    <form>  
+						Nom : 
+						<input type="text" id="age" size="25">
+						Adresse email :      
+						<input type="text" id="email" size="25"><br><br>
+						<textarea id="question" rows="2" cols="50"placeholder="Vous pouvez écrire votre message ici..."></textarea><br><br>
+						<input type="Submit" name="soumettre" value="Submit" onClick="testEmail()"> 
+					</form>      
+    		    </div>   
+    		    <div class="col-lg-4 col-md-4 col-sm-12">       
+     				<h6 class="text-uppercase font-weight-bold">Contact</h6>       
+     				<p>            
+     					 28 rue Vercingétorix,<br> 
+     					 Juvisy-sur-Orge, 91260, France <br>             
+     					 <a href="mailto:baptiste.bonnet@edu.ece.fr">baptiste.bonnet@edu.ece.fr</a><br>            
+     					 +33 6 72 59 29 08 <br>                  
+     	  		    </p>     
+   			    </div>   
+   			</div>  
+   		</div> 
+  	    <div class="footer-copyright text-center">&copy; 2020 Copyright | Baptiste Bonnet | ECE Paris</div> 
+	</footer>
+
+</body>
+</html>
